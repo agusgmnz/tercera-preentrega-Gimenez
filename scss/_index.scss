@@ -1,7 +1,8 @@
 body {
   font-family: $font-family;
-  header {
-    background-color: $primary-color
-    ;
+  background-color: #000000;
+
+  .navbar--red {
+    background-color: $primary-color;
   }
 }

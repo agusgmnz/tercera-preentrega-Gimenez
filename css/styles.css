@@ -1,7 +1,8 @@
 body {
   font-family: "Josefin Sans", sans-serif;
+  background-color: #000000;
 }
-body header {
+body .navbar--red {
   background-color: #a52121;
 }
 

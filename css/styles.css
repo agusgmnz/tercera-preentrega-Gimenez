@@ -1,3 +1,8 @@
-
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+body header {
+  background-color: #a52121;
+}
 
 /*# sourceMappingURL=styles.css.map */

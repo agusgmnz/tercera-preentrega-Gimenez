@@ -1,8 +1,48 @@
-body {
-  font-family: $font-family;
-  background-color: #000000;
+.navbar--black {
+  background-color: $primary-color;
 
-  .navbar--red {
-    background-color: $primary-color;
+  .nav-item {
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+}
+.main {
+  margin: 0 auto;
+  width: auto;
+  height: 120vh;
+  display: grid;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  background-color: gray;
+
+  h1 {
+    font-family: $font-family;
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+    li {
+      text-align: center;
+      align-items: center;
+      margin: 0 10px;
+    }
   }
 }

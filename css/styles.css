@@ -1,9 +1,45 @@
-body {
-  font-family: "Josefin Sans", sans-serif;
-  background-color: #000000;
-}
-body .navbar--red {
+.navbar--black {
   background-color: #a52121;
+}
+.navbar--black .nav-item {
+  color: white;
+}
+.navbar--black a {
+  color: white;
+}
+
+.main {
+  margin: 0 auto;
+  width: auto;
+  height: 120vh;
+  display: grid;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  background-color: gray;
+}
+.info-content h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+}
+.info-content p {
+  text-align: center;
+}
+.info-content ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.info-content ul li {
+  text-align: center;
+  align-items: center;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

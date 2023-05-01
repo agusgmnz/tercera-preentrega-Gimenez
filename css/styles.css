@@ -40,10 +40,15 @@ ul {
   align-items: center;
   justify-content: center;
 }
-ul li {
+ul .redes {
   text-align: center;
   align-items: center;
   margin: 0 10px;
+}
+ul .redes :hover {
+  border-radius: 40%;
+  transform: scale(1.5);
+  background-image: linear-gradient(to right top, #062c83, #364693, #5561a3, #737db2, #929ac0);
 }
 
 .parrafo-ft {

@@ -20,7 +20,14 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: linear-gradient(to bottom, #000000, #191717, #2a2826, #3b3936, #4b4c48);
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #191717,
+    #2a2826,
+    #3b3936,
+    #4b4c48
+  );
 
   h1 {
     font-family: $font-family;
@@ -44,13 +51,25 @@ ul {
   align-items: center;
   justify-content: center;
 
-  li {
+  .redes {
     text-align: center;
     align-items: center;
     margin: 0 10px;
+    :hover {
+      border-radius: 40%;
+      transform: scale(1.5);
+      background-image: linear-gradient(
+        to right top,
+        #062c83,
+        #364693,
+        #5561a3,
+        #737db2,
+        #929ac0
+      );
+    }
   }
 }
 
-.parrafo-ft{
+.parrafo-ft {
   text-align: center;
 }

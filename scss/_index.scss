@@ -19,11 +19,12 @@
 .info-content {
   display: flex;
   flex-direction: column;
-  height: 60vh;
-  background-color: gray;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #000000, #191717, #2a2826, #3b3936, #4b4c48);
 
   h1 {
     font-family: $font-family;
+    color: white;
     font-size: 70px;
     text-align: center;
     margin: auto;
@@ -31,18 +32,25 @@
   }
 
   p {
+    color: white;
     text-align: center;
   }
+}
+// footer
 
-  ul {
-    display: flex;
-    list-style-type: none;
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    text-align: center;
     align-items: center;
-
-    li {
-      text-align: center;
-      align-items: center;
-      margin: 0 10px;
-    }
+    margin: 0 10px;
   }
+}
+
+.parrafo-ft{
+  text-align: center;
 }

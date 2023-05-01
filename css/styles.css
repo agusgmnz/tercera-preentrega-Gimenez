@@ -18,28 +18,36 @@
 .info-content {
   display: flex;
   flex-direction: column;
-  height: 60vh;
-  background-color: gray;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #000000, #191717, #2a2826, #3b3936, #4b4c48);
 }
 .info-content h1 {
   font-family: "Josefin Sans", sans-serif;
+  color: white;
   font-size: 70px;
   text-align: center;
   margin: auto;
   padding-top: 25px;
 }
 .info-content p {
+  color: white;
   text-align: center;
 }
-.info-content ul {
+
+ul {
   display: flex;
   list-style-type: none;
   align-items: center;
+  justify-content: center;
 }
-.info-content ul li {
+ul li {
   text-align: center;
   align-items: center;
   margin: 0 10px;
+}
+
+.parrafo-ft {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
